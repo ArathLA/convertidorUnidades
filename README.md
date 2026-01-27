@@ -1,46 +1,92 @@
-# convertidorUnidades
+#  Conversor de Unidades Web
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ODelgadoDev/convertidorUnidades)
+[![Netlify](https://img.shields.io/badge/Netlify-Live_Deployed-brightgreen)](https://convertirunidad.netlify.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://html5.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://css3.com/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-# Conversor de Unidades Web  
-HTML5 + CSS3 + JavaScript
+[![StackBlitz](https://img.shields.io/badge/StackBlitz-Edit_Online-blueviolet?logo=stackblitz&logoColor=white)](https://stackblitz.com/~/github.com/ODelgadoDev/convertidorUnidades)
 
-Materia: Desarrollo Móvil Multiplataforma  
-Docente: Enrique Mascote  
+##  **Demo en Vivo**
+[ https://convertirunidad.netlify.app/](https://convertirunidad.netlify.app/)
 
-Equipo de trabajo:  
-Jesús Orlando Delgado Azar  
-Héctor Antonio Terrazas Guevara  
-Juan Arath López Alvídrez  
+---
 
-Descripción del proyecto  
-Este proyecto consiste en el desarrollo de una aplicación web que integra HTML5, CSS3 y JavaScript, cuyo propósito es realizar la conversión de unidades de manera interactiva y funcional. La aplicación permite convertir valores entre distintas unidades de longitud, temperatura y peso, aplicando correctamente la integración entre las tecnologías web vistas en la unidad.
+##  **Descripción del Proyecto**
+**Conversor de Unidades Web** es una aplicación moderna desarrollada con **HTML5 + CSS3 + JavaScript** para **Desarrollo Móvil Multiplataforma**. Permite convertir unidades de **Longitud**, **Peso** y **Temperatura** de forma interactiva con una interfaz intuitiva.
 
-El sistema fue desarrollado utilizando una estructura clara y organizada, separando la interfaz de usuario, el diseño visual y la lógica del programa, conforme a los lineamientos establecidos en la materia.
+**✨ Características principales:**
+- Historial persistente con **LocalStorage**
+- Intercambio automático de unidades
+- Validación en tiempo real
+- Diseño **responsive** y moderno
 
-Funcionalidades  
-Selección de la categoría de conversión (longitud, temperatura o peso).  
-Conversión entre múltiples unidades.  
-Validación de datos de entrada.  
-Botón para intercambiar unidades.  
-Botón para limpiar el formulario.  
-Historial de conversiones almacenado mediante LocalStorage.  
-Interfaz funcional para su despliegue en la web.
+** Materia:** Desarrollo Móvil Multiplataforma  
+** Docente:** Enrique Mascote  
+** Última actualización:** Enero 2026
 
-Tecnologías utilizadas  
-HTML5 para la estructura de la interfaz.  
-CSS3 para el diseño y presentación visual.  
-JavaScript para la lógica del programa, manejo de eventos y sentencias de control.
+** Equipo de Desarrollo:**
+Jesús Orlando Delgado Azar
+Héctor Antonio Terrazas Guevara
+Juan Arath López Alvídrez
 
-Estructura del proyecto  
-index.html  
-styles.css  
-script.js  
-README.md  
+---
 
-Despliegue  
-El proyecto se encuentra disponible para su ejecución en línea mediante Netlify.  
-Enlace de Netlify: https://convertirunidad.netlify.app/
+## 📊 **Funcionalidades**
 
-El código fuente completo se encuentra alojado en GitHub.  
-Repositorio GitHub: https://github.com/ODelgadoDev/convertidorUnidades
+| **Categoría** | **Unidades Disponibles** | **Características** |
+|--------------|-------------------------|-------------------|
+| **Longitud** | m ↔ km, cm ↔ pulgadas | Intercambio bidireccional |
+| **Peso** | kg ↔ lb, g ↔ oz | Validación numérica |
+| **Temperatura** | °C ↔ °F ↔ K | Precisión decimal |
+
+**  Funciones implementadas:**
+- Selección dinámica de categoría
+- Botón **"Intercambiar"** unidades
+- Botón **"Limpiar"** formulario
+- **Historial completo** de conversiones
+- Interfaz optimizada para móvil
+
+---
+
+##  **Tecnologías Utilizadas**
+Frontend: HTML5 - CSS3 (Flexbox/Grid) - Vanilla JavaScript ES6+
+Almacenamiento: LocalStorage API
+Despliegue: Netlify
+Editor: StackBlitz
+
+---
+
+## 📁 **Estructura del Proyecto**
+convertidorUnidades/
+├── index.html # Interfaz principal
+├── styles.css # Estilos modernos y responsive
+├── script.js # Lógica de conversión + LocalStorage
+└── README.md # Documentación
+
+---
+
+##  **Instalación Rápida**
+
+### Opción 1: Demo Online (Recomendado)
+[![Netlify Deploy](https://convertirunidad.netlify.app/)](https://convertirunidad.netlify.app/)
+
+### Opción 2: Local
+```bash
+git clone https://github.com/ODelgadoDev/convertidorUnidades.git
+cd convertidorUnidades
+# Abrir index.html en cualquier navegador
+
+ Ejemplo de Uso
+1️⃣ Selecciona "Longitud"
+2️⃣ Ingresa "10.5" metros
+3️⃣ Selecciona "Kilómetros (km)"
+4️⃣ ✅ Resultado: 0.0105 km
+5️⃣ Se guarda automáticamente en Historial
+
+Enlaces Importantes
+ Demo: Live	convertirunidad.netlify.app
+
+ Repositorio: github.com/ODelgadoDev/convertidorUnidades
+
+  StackBlitz:	Editar Online
