@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conversor de Unidades</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Conversor de Unidades</h1>
+    <p>Longitud • Temperatura • Peso</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="convertTitle">
+      <h2 id="convertTitle">Convertir</h2>
+
+      <form id="converterForm">
+        <fieldset>
+          <legend>Datos de conversión</legend>
+
+          <label for="category">Categoría</label>
+          <select id="category" required>
+            <option value="length" selected>Longitud</option>
+            <option value="temperature">Temperatura</option>
+            <option value="weight">Peso</option>
+          </select>
+
+          <label for="valueInput">Valor</label>
+          <input
+            id="valueInput"
+            type="number"
+            step="any"
+            inputmode="decimal"
+            placeholder="Ej. 10.5"
+            required
+          />
+
+          <label for="fromUnit">De</label>
+          <select id="fromUnit" required></select>
+
+          <label for="toUnit">A</label>
+          <select id="toUnit" required></select>
+
+          <div>
+            <button type="submit" id="convertBtn">Convertir</button>
+            <button type="button" id="swapBtn">Intercambiar</button>
+            <button type="button" id="clearBtn">Limpiar</button>
+          </div>
+        </fieldset>
+
+        <section aria-live="polite">
+          <h3>Resultado</h3>
+          <p id="resultText">—</p>
+          <p id="message"></p>
+        </section>
+      </form>
+    </section>
+
+    <hr />
+
+    <section aria-labelledby="historyTitle">
+      <h2 id="historyTitle">Historial</h2>
+      <button type="button" id="clearHistoryBtn">Borrar historial</button>
+
+      <ul id="historyList"></ul>
+      <p id="emptyHistory">Aún no hay conversiones.</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Proyecto: Integración JavaScript con HTML5 y CSS3</small>
+    <small>Proyecto por Jésus Orlando D. Azar, Hector Antonio T. Guevara, Juan Arath L. Alvidrez</small>
+  </footer>
+
+</body>
+</html>
