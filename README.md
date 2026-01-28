@@ -15,7 +15,7 @@
 ##  **Descripción del Proyecto**
 **Conversor de Unidades Web** es una aplicación moderna desarrollada con **HTML5 + CSS3 + JavaScript** para **Desarrollo Móvil Multiplataforma**. Permite convertir unidades de **Longitud**, **Peso** y **Temperatura** de forma interactiva con una interfaz intuitiva.
 
-**✨ Características principales:**
+** Características principales:**
 - Historial persistente con **LocalStorage**
 - Intercambio automático de unidades
 - Validación en tiempo real
@@ -32,7 +32,7 @@ Juan Arath López Alvídrez
 
 ---
 
-## 📊 **Funcionalidades**
+##  **Funcionalidades**
 
 | **Categoría** | **Unidades Disponibles** | **Características** |
 |--------------|-------------------------|-------------------|
@@ -57,7 +57,7 @@ Editor: StackBlitz
 
 ---
 
-## 📁 **Estructura del Proyecto**
+##  **Estructura del Proyecto**
 convertidorUnidades/
 ├── index.html # Interfaz principal
 ├── styles.css # Estilos modernos y responsive
@@ -78,11 +78,11 @@ cd convertidorUnidades
 # Abrir index.html en cualquier navegador
 
  Ejemplo de Uso
-1️⃣ Selecciona "Longitud"
-2️⃣ Ingresa "10.5" metros
-3️⃣ Selecciona "Kilómetros (km)"
-4️⃣ ✅ Resultado: 0.0105 km
-5️⃣ Se guarda automáticamente en Historial
+1️ Selecciona "Longitud"
+2️ Ingresa "10.5" metros
+3️ Selecciona "Kilómetros (km)"
+4️  Resultado: 0.0105 km
+5️ Se guarda automáticamente en Historial
 
 Enlaces Importantes
  Demo: Live	convertirunidad.netlify.app
